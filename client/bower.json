@@ -1,0 +1,22 @@
+{
+  "name": "newsCycle",
+  "authors": [
+    "Tal <tal@vees.to>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "d3": "^4.4.0"
+  }
+}

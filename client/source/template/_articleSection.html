@@ -1,0 +1,7 @@
+<article id= "articleSection" style="background: #2c2a34l; height:800px;  width: 13%; display: inline-block; float: left; color: #ffffff; overflow-y: scroll; margin-top: 57px; font-family: Arial; font-size: 20px; ">
+
+<p>Date : <input type="text" ng-model="date" id="dateInput"></p>
+<div ng-repeat="article in top10.sideEvent | filter : articleDate">
+                         <div style="border-bottom: 1px dotted #ffffff; margin-bottom: 20px">{{article.description}}</div>
+                </div>
+</article>	
