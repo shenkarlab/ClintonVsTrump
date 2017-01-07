@@ -1,0 +1,21 @@
+text {
+  font: 12px sans-serif;
+  color: #ffffff;
+}
+circle {
+    stroke: #FF3C3C;
+    stroke-width: 1;
+}
+body{
+    background-color: #2C2A34;
+}
+#logo{
+  display:block;
+  width:200px;
+  height:60px;
+  background:url('../images/logo.png') no-repeat;
+  margin:0 auto;
+  position: relative;
+  top:12%;
+  right: 40%;
+}
