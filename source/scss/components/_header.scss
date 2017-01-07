@@ -1,0 +1,39 @@
+#welcome {
+  width: 100%;
+  height: 100%;
+
+  h1 {
+    padding: 35vh 5vh 5vh 5vh;
+    margin: 0;
+    color: $color-main;
+    @include drop-shadow;
+  }
+
+  @media (min-width: $breakpoint-small) {
+    h1 {width: 75vw; background:#2c2a34;}
+  }
+
+  @media (min-width: $breakpoint-medium) {
+    h1 {width: 55vw; background:#2c2a34;}
+  }
+
+  a.btn {
+    @include drop-shadow;
+  }
+}
+
+#hillary {
+  width: 40%;
+  background: blue;
+  margin-left: 7%;
+  margin-right: 2.5%;
+  display: inline-block;
+}
+
+#donald {
+  width: 40%;
+  background: red;
+  margin-right:7%;
+  margin-left:2.5%;
+  display: inline-block;
+}

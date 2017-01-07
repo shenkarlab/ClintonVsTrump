@@ -1,0 +1,12 @@
+<div  id = "bubbleChart" style="width:86%; margin: auto; font-size: 20px; color: #ffffff; font-family: Arial; margin-top: 57px">
+  	
+  	<!-- <div ng-repeat = "topic in top10.Bubbles | filter : 'Hillary Clinton'">
+  	<div class="verticalLine" style="height: {{topic.count}}px; width:0.5px; float: left; bottom: 0px"></div>
+  	</div> -->
+  
+  	<div ng-repeat = "topic in top10.Bubbles | filter : date " style="display: inline-block; margin-top: 200px">
+  		<div id = "{{topic.topic}}" 
+  		class = "bubble"
+  		style=" height: {{topic.count/10}}px; width: {{topic.count/10}}px; display: inline-block;min-height: 50px;min-width: 50px; font-size: 13px" ng-click="showYear($event)" onclick="showGraph()">{{topic.topic}}</div>
+  	</div>
+</div>

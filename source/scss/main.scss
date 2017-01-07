@@ -1,0 +1,46 @@
+//utils
+@import 'utils/_variables';
+@import 'utils/_mixins';
+
+//components
+@import 'components/_header';
+@import 'components/_footer';
+
+body {
+  background: #2c2a34;
+  background-size: cover;
+    margin: 0px;
+    overflow-x:hidden;
+  
+}
+
+.clear {
+    clear: both;
+}
+
+.verticalLine {
+  border-left:  solid #2D91FF;
+  display:inline;
+}
+
+.bubble {
+  cursor:pointer; 
+  color: #ffffff; 
+  background: #FF3C3C; 
+  border-radius: 50%; 
+  padding: 1em 1em;
+}
+
+.bubble:hover {
+  background: #2D91FF;
+}
+
+#dateInput {
+  background: #2c2a34;
+  color:#ffffff;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+ font-family: Arial;
+ font-size: 20px; 
+ width: 105px; 
+}
