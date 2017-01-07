@@ -10,8 +10,6 @@ var bodyParser = require('body-parser');
 var multipart = require('connect-multiparty');
 var multipartAction = multipart();
 
-
-
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 app.set('port', port);
