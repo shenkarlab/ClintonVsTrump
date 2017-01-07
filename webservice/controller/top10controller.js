@@ -14,10 +14,10 @@ exports.getData = function(req, res){
   
      t1 = docs; 
 
-    event.find({},function(err, docs){
-        if (err){
-              throw err;
-        }
+        event.find({},function(error, docs){
+            if (err){
+                  throw err;
+            }
    
      t2 = docs; 
 
@@ -26,7 +26,7 @@ exports.getData = function(req, res){
         sideEvent:t2
     };
 
-    res.json(res1s);
+    res.json(res1);
 
          });
     });

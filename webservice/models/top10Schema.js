@@ -3,7 +3,7 @@ var schema = mongoose.Schema;
 
 
 var top10Schema = new schema({
-  topic: {type:Number, required:true},
+  topic: {type:String, required:true},
   date: {type:String},
   count: {type:Number},
 },{collection: 'top10'});
