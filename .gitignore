@@ -5,4 +5,5 @@ dist/
 /bower.json
 *sass-cache
 *.css.map
-# add whatever you need #
+# add whatever you need #node_modules/
+node_modules/
