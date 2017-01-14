@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="139px" viewBox="0 0 234 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.0-First-screen" transform="translate(-70.000000, -65.000000)">
+            <g id="Logo" transform="translate(70.000000, 55.000000)">
+                <text id="The-Year-of-MEH." font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="64.000001" font-weight="500" line-spacing="65.600001" letter-spacing="0.0533333488">
+                    <tspan x="0.192000003" y="63" fill="#F8E9ED">The Year</tspan>
+                    <tspan x="0" y="128.216001" font-family="SourceSansPro-BoldIt, Source Sans Pro" font-style="italic" font-weight="bold" letter-spacing="0.0533333495" fill="#FF44FE">of MEH.</tspan>
+                </text>
+                <path d="M4.79844961,144 L209.301332,144" id="Line" stroke="#F8E9ED" stroke-width="9.60000014" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
